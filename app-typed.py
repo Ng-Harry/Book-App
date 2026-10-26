@@ -18,4 +18,8 @@ class BookCreate(BaseModel):
     year: int
     pages: int
     language: str
+
+class BookUpdate(BaseModel):
+    title: str
+    pages: int
     
